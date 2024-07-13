@@ -39,24 +39,27 @@
             padding-bottom: 0.5em;
         }
         .project-item {
+            display: flex;
             background-color: #fff;
             margin: 1em 0;
             padding: 1em;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s, background-color 0.3s;
-        }
-        .project-item h3 {
-            margin-top: 0;
-        }
-        .project-item a {
             text-decoration: none;
-            color: #333;
-            cursor: pointer;
+            color: inherit;
         }
         .project-item:hover {
             transform: scale(1.05);
             background-color: #e0e0e0;
+        }
+        .project-item img {
+            max-width: 100px;
+            margin-right: 1em;
+            border-radius: 5px;
+        }
+        .project-item h3 {
+            margin-top: 0;
         }
         .footer {
             background-color: #333;
@@ -79,18 +82,27 @@
 
         <section class="projects">
             <h2>Projects</h2>
-            <div class="project-item">
-                <h3><a href="project1.html">Project 1</a></h3>
-                <p>Description of project 1. What it does, technologies used, and your role.</p>
-            </div>
-            <div class="project-item">
-                <h3><a href="project2.html">Project 2</a></h3>
-                <p>Description of project 2. What it does, technologies used, and your role.</p>
-            </div>
-            <div class="project-item">
-                <h3><a href="project3.html">Project 3</a></h3>
-                <p>Description of project 3. What it does, technologies used, and your role.</p>
-            </div>
+            <a href="project1.html" class="project-item">
+                <img src="project1-thumbnail.jpg" alt="Project 1 Thumbnail">
+                <div>
+                    <h3>Project 1</h3>
+                    <p>Description of project 1. What it does, technologies used, and your role.</p>
+                </div>
+            </a>
+            <a href="project2.html" class="project-item">
+                <img src="project2-thumbnail.jpg" alt="Project 2 Thumbnail">
+                <div>
+                    <h3>Project 2</h3>
+                    <p>Description of project 2. What it does, technologies used, and your role.</p>
+                </div>
+            </a>
+            <a href="project3.html" class="project-item">
+                <img src="project3-thumbnail.jpg" alt="Project 3 Thumbnail">
+                <div>
+                    <h3>Project 3</h3>
+                    <p>Description of project 3. What it does, technologies used, and your role.</p>
+                </div>
+            </a>
         </section>
     </div>
 
