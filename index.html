@@ -48,19 +48,22 @@
             transition: transform 0.3s, background-color 0.3s;
             text-decoration: none;
             color: inherit;
-            cursor: pointer;
         }
         .project-item:hover {
             transform: scale(1.05);
             background-color: #e0e0e0;
+            cursor: pointer;
         }
         .project-item img {
             max-width: 100px;
             margin-right: 1em;
             border-radius: 5px;
         }
-        .project-item h3 {
-            margin-top: 0;
+        .project-item div {
+            cursor: pointer;
+        }
+        .project-item h3, .project-item p {
+            margin: 0;
         }
         .footer {
             background-color: #333;
