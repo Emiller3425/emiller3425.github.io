@@ -39,11 +39,22 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         .project-detail img {
-            max-width: 100%;
+            max-width: 45%;
             height: auto;
             margin: 1em 0;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .image-text-container {
+            display: flex;
+            align-items: center;
+            margin: 2em 0;
+        }
+        .image-text-container:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+        .image-text-container img {
+            margin: 0 2em;
         }
         .footer {
             background-color: #333;
@@ -110,25 +121,24 @@
                 <li><strong>Tailwind CSS:</strong> To ensure a modern and consistent design throughout the site.</li>
             </ul>
 
-            <h3>Role:</h3>
-            <p>As a key contributor to this project, my responsibilities included:</p>
-            <ul>
-                <li>Developing the React frontend to create an interactive and user-friendly interface.</li>
-                <li>Setting up the Node.js backend to manage API calls and data handling.</li>
-                <li>Integrating Firestore for efficient data storage and real-time updates.</li>
-                <li>Implementing the admin access feature, allowing secure and easy updates to site content by club members.</li>
-                <li>Ensuring the overall design and functionality meet the club's requirements and provide an optimal user experience.</li>
-            </ul>
-
             <h3>Screenshots:</h3>
-            <img src="images/home.png" alt="Home Screen">
-            <img src="images/announcements.png" alt="Announcements Screen">
-            <img src="images/calendar.png" alt="Calendar Screen">
+            <div class="image-text-container">
+                <img src="images/home.png" alt="Home Screen">
+                <p>This is the home screen of the Real Estate Club GVSU Website, showcasing the welcoming interface and navigation options for users.</p>
+            </div>
+            <div class="image-text-container">
+                <p>The announcements screen allows admins to post important updates and news, ensuring all members are informed of the latest happenings.</p>
+                <img src="images/announcements.png" alt="Announcements Screen">
+            </div>
+            <div class="image-text-container">
+                <img src="images/calendar.png" alt="Calendar Screen">
+                <p>The calendar screen provides an overview of upcoming events and meetings, allowing members to stay organized and engaged with club activities.</p>
+            </div>
         </div>
     </div>
 
     <footer class="footer">
-        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+        <p>&copy; 2024 Ethan Miller. All rights reserved.</p>
     </footer>
 </body>
 </html>
