@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ethan Miller's Portfolio</title>
+    <title>Ethan Miller's Portfolio </title>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <style>
         html, body {
             height: 100%;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
         }
         body {
             display: flex;
             flex-direction: column;
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            position: relative;
         }
         header {
             background-color: #666565;
@@ -51,6 +52,8 @@
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             background-color: #fff;
+            position: relative;
+            z-index: 1;
         }
         .project-detail h2, .project-detail h3 {
             margin-top: 0;
@@ -73,6 +76,9 @@
             align-items: center;
             margin: 2em 0;
             border: 3px solid black;
+            background-color: #fff;
+            position: relative;
+            z-index: 1;
         }
         .image-text-container:nth-child(even) {
             flex-direction: row-reverse;
@@ -102,7 +108,21 @@
             color: #fff;
             text-align: center;
             padding: 1em 0;
+            position: relative;
+            z-index: 1;
         }
+        .dragon {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            z-index: 0;
+        }
+        .dragon-1 { top: 10%; left: 10%; background-image: url('images/dragon1.png'); }
+        .dragon-2 { top: 20%; right: 10%; background-image: url('images/dragon2.png'); }
+        .dragon-3 { bottom: 20%; left: 20%; background-image: url('images/dragon3.png'); }
+        .dragon-4 { bottom: 10%; right: 20%; background-image: url('images/dragon4.png'); }
     </style>
 </head>
 <body>
@@ -113,7 +133,7 @@
 
     <div class="container">
         <div class="project-detail">
-            <h2>Real Estate Club GVSU Website</h2>
+            <h2>Real Estate Club GVSU Website | gvsurealestateclub.com</h2>
             <p>The Real Estate Club GVSU Website is a comprehensive platform designed to streamline the management and dissemination of information for the Real Estate Club at Grand Valley State University.</p>
 
             <h3>Overview:</h3>
@@ -205,5 +225,11 @@
     <footer class="footer">
         <p>&copy; 2024 Ethan Miller. All rights reserved.</p>
     </footer>
+
+    <!-- Adding dragon images as background decorations -->
+    <div class="images/cartoonBuildings.jpg"></div>
+    <div class="images/cartoonBuildings.jpg"></div>
+    <div class="images/cartoonBuildings.jpg"></div>
+    <div class="images/cartoonBuildings.jpg"></div>
 </body>
 </html>
