@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/emiller3425.github.io/static/css/main.e3fe3622.css",
-    "main.js": "/emiller3425.github.io/static/js/main.b4576ee8.js",
-    "static/media/home.png": "/emiller3425.github.io/static/media/home.401a4c2b1a01f97deead.png",
-    "static/media/real-time.png": "/emiller3425.github.io/static/media/real-time.637b64c3754883ae2e32.png",
-    "static/media/calendar.png": "/emiller3425.github.io/static/media/calendar.4f51b29e9b6db219edbd.png",
-    "static/media/about.png": "/emiller3425.github.io/static/media/about.68c89481595ccf06fc12.png",
-    "static/media/announcements.png": "/emiller3425.github.io/static/media/announcements.531db41fe9f2ddff3bce.png",
-    "static/media/user-interface.png": "/emiller3425.github.io/static/media/user-interface.1804ed6ab604cdec00be.png",
-    "static/media/admin-access.png": "/emiller3425.github.io/static/media/admin-access.7ad5660a3b632a956888.png",
-    "static/media/security.png": "/emiller3425.github.io/static/media/security.e7f5457b0cef7f3177f2.png",
-    "static/media/collaboration.png": "/emiller3425.github.io/static/media/collaboration.1a9e9d0e845c77d14d30.png",
-    "static/media/resources.png": "/emiller3425.github.io/static/media/resources.6835f55385d1ce971927.png",
-    "index.html": "/emiller3425.github.io/index.html",
-    "main.e3fe3622.css.map": "/emiller3425.github.io/static/css/main.e3fe3622.css.map",
-    "main.b4576ee8.js.map": "/emiller3425.github.io/static/js/main.b4576ee8.js.map"
+    "main.css": "/static/css/main.e3fe3622.css",
+    "main.js": "/static/js/main.1ca16aa8.js",
+    "static/media/home.png": "/static/media/home.401a4c2b1a01f97deead.png",
+    "static/media/real-time.png": "/static/media/real-time.637b64c3754883ae2e32.png",
+    "static/media/calendar.png": "/static/media/calendar.4f51b29e9b6db219edbd.png",
+    "static/media/about.png": "/static/media/about.68c89481595ccf06fc12.png",
+    "static/media/announcements.png": "/static/media/announcements.531db41fe9f2ddff3bce.png",
+    "static/media/user-interface.png": "/static/media/user-interface.1804ed6ab604cdec00be.png",
+    "static/media/admin-access.png": "/static/media/admin-access.7ad5660a3b632a956888.png",
+    "static/media/security.png": "/static/media/security.e7f5457b0cef7f3177f2.png",
+    "static/media/collaboration.png": "/static/media/collaboration.1a9e9d0e845c77d14d30.png",
+    "static/media/resources.png": "/static/media/resources.6835f55385d1ce971927.png",
+    "index.html": "/index.html",
+    "main.e3fe3622.css.map": "/static/css/main.e3fe3622.css.map",
+    "main.1ca16aa8.js.map": "/static/js/main.1ca16aa8.js.map"
   },
   "entrypoints": [
     "static/css/main.e3fe3622.css",
-    "static/js/main.b4576ee8.js"
+    "static/js/main.1ca16aa8.js"
   ]
 }
