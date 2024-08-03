@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ethan Miller's Portfolio </title>
+    <title>Ethan Miller's Portfolio</title>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <style>
         html, body {
@@ -55,21 +55,46 @@
             position: relative;
             z-index: 1;
         }
-        .project-detail h2, .project-detail h3 {
-            margin-top: 0;
+        .tabs {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 1em;
         }
-        .project-detail p {
-            margin: 1em 0;
+        .tab {
+            padding: 1em;
+            cursor: pointer;
+            background-color: #666565;
+            color: #fff;
+            border-radius: 5px;
         }
-        .project-detail ul {
-            list-style-type: disc;
-            padding-left: 1em;
+        .tab-content {
+            display: none;
         }
-        .project-detail ul ul {
-            list-style-type: circle;
+        .tab-content.active {
+            display: block;
         }
-        .project-detail ul li {
-            margin-bottom: 0.5em;
+        .tech-used {
+            display: flex;
+            justify-content: space-around;
+            margin: 2em 0;
+        }
+        .tech-used img {
+            width: 80px;
+            height: 80px;
+        }
+        .features {
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+        }
+        .feature {
+            display: flex;
+            align-items: center;
+        }
+        .feature img {
+            width: 40px;
+            height: 40px;
+            margin-right: 1em;
         }
         .image-text-container {
             display: flex;
@@ -97,12 +122,6 @@
             text-align: center;
             flex: 1;
         }
-        .image-text-container h4 {
-            margin: 0;
-        }
-        .image-text-container p {
-            margin: 1em;
-        }
         .footer {
             background-color: #666565;
             color: #fff;
@@ -124,6 +143,22 @@
         .dragon-3 { bottom: 20%; left: 20%; background-image: url('images/dragon3.png'); }
         .dragon-4 { bottom: 10%; right: 20%; background-image: url('images/dragon4.png'); }
     </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabs = document.querySelectorAll('.tab');
+            const tabContents = document.querySelectorAll('.tab-content');
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', function() {
+                    tabs.forEach(t => t.classList.remove('active'));
+                    tabContents.forEach(tc => tc.classList.remove('active'));
+
+                    this.classList.add('active');
+                    document.getElementById(this.dataset.target).classList.add('active');
+                });
+            });
+        });
+    </script>
 </head>
 <body>
     <header>
@@ -134,54 +169,53 @@
     <div class="container">
         <div class="project-detail">
             <h2><a href="https://gvsurealestateclub.com" target="_blank" rel="noopener noreferre">Real Estate Club GVSU Website</a></h2>
-            <p>The Real Estate Club GVSU Website is a comprehensive platform designed to streamline the management and dissemination of information for the Real Estate Club at Grand Valley State University.</p>
 
-            <h3>Overview:</h3>
-            <p><strong>Frontend:</strong> The website is built using React, which offers a dynamic and responsive user interface, ensuring an optimal user experience across various devices.</p>
-            <p><strong>Backend:</strong> The backend leverages Node.js and Firestore, providing a robust and scalable environment to handle data and user authentication seamlessly.</p>
-            <p><strong>API Integration:</strong> The site utilizes API calls to fetch and update information dynamically, ensuring that the content remains current and relevant.</p>
+            <div class="tabs">
+                <div class="tab active" data-target="frontend">Frontend</div>
+                <div class="tab" data-target="backend">Backend</div>
+                <div class="tab" data-target="api">API Integration</div>
+            </div>
+            <div id="frontend" class="tab-content active">
+                <p><strong>Frontend:</strong> The website is built using React, which offers a dynamic and responsive user interface, ensuring an optimal user experience across various devices.</p>
+            </div>
+            <div id="backend" class="tab-content">
+                <p><strong>Backend:</strong> The backend leverages Node.js and Firestore, providing a robust and scalable environment to handle data and user authentication seamlessly.</p>
+            </div>
+            <div id="api" class="tab-content">
+                <p><strong>API Integration:</strong> The site utilizes API calls to fetch and update information dynamically, ensuring that the content remains current and relevant.</p>
+            </div>
 
             <h3>Features:</h3>
-            <ul>
-                <li><strong>Admin Access:</strong> 
-                    <ul>
-                        <li>Admin access is secured through a specific password. This ensures that only authorized club members can make changes to the site content.</li>
-                        <li>The admin dashboard allows users to update announcements, calendar events, and other essential information without requiring any programming skills.</li>
-                    </ul>
-                </li>
-                <li><strong>User-Friendly Interface:</strong> 
-                    <ul>
-                        <li>The frontend interface, developed in React, offers an intuitive and interactive experience for users.</li>
-                        <li>The design prioritizes accessibility and ease of use, enabling club members to navigate and utilize the website efficiently.</li>
-                    </ul>
-                </li>
-                <li><strong>Real-Time Updates:</strong> 
-                    <ul>
-                        <li>By integrating Firestore, the website supports real-time updates. Any changes made through the admin dashboard are instantly reflected across the site.</li>
-                        <li>This ensures that all members have access to the latest information at all times.</li>
-                    </ul>
-                </li>
-                <li><strong>Security:</strong> 
-                    <ul>
-                        <li>The use of Node.js in the backend allows for secure handling of user data and authentication processes.</li>
-                        <li>The system is designed to protect against unauthorized access and ensure data integrity.</li>
-                    </ul>
-                </li>
-                <li><strong>Collaboration and Communication:</strong> 
-                    <ul>
-                        <li>The platform facilitates better communication among club members by providing up-to-date information on events, meetings, and announcements.</li>
-                        <li>The integration of social media links further enhances the club’s online presence and engagement.</li>
-                    </ul>
-                </li>
-            </ul>
+            <div class="features">
+                <div class="feature">
+                    <img src="images/admin-access.png" alt="Admin Access Icon">
+                    <div><strong>Admin Access:</strong> Secured through a specific password, allowing only authorized members to update site content.</div>
+                </div>
+                <div class="feature">
+                    <img src="images/user-interface.png" alt="User Interface Icon">
+                    <div><strong>User-Friendly Interface:</strong> Developed with React for intuitive and interactive user experience.</div>
+                </div>
+                <div class="feature">
+                    <img src="images/real-time.png" alt="Real-Time Updates Icon">
+                    <div><strong>Real-Time Updates:</strong> Firestore integration for instant reflection of changes made through the admin dashboard.</div>
+                </div>
+                <div class="feature">
+                    <img src="images/security.png" alt="Security Icon">
+                    <div><strong>Security:</strong> Secure handling of user data and authentication with Node.js backend.</div>
+                </div>
+                <div class="feature">
+                    <img src="images/collaboration.png" alt="Collaboration Icon">
+                    <div><strong>Collaboration:</strong> Up-to-date information on events and meetings for better communication among members.</div>
+                </div>
+            </div>
 
             <h3>Technologies Used:</h3>
-            <ul>
-                <li><strong>React:</strong> For building a dynamic and responsive frontend.</li>
-                <li><strong>Node.js:</strong> To handle the backend logic and server-side operations.</li>
-                <li><strong>Firestore:</strong> For real-time database management and data storage.</li>
-                <li><strong>Tailwind CSS:</strong> To ensure a modern and consistent design throughout the site.</li>
-            </ul>
+            <div class="tech-used">
+                <img src="images/react.png" alt="React Icon">
+                <img src="images/nodejs.png" alt="Node.js Icon">
+                <img src="images/firestore.png" alt="Firestore Icon">
+                <img src="images/tailwindcss.png" alt="Tailwind CSS Icon">
+            </div>
 
             <h3>Screens:</h3>
             <div class="image-text-container">
@@ -227,9 +261,9 @@
     </footer>
 
     <!-- Adding dragon images as background decorations -->
-    <div class="images/cartoonBuildings.jpg"></div>
-    <div class="images/cartoonBuildings.jpg"></div>
-    <div class="images/cartoonBuildings.jpg"></div>
-    <div class="images/cartoonBuildings.jpg"></div>
+    <div class="dragon dragon-1"></div>
+    <div class="dragon dragon-2"></div>
+    <div class="dragon dragon-3"></div>
+    <div class="dragon dragon-4"></div>
 </body>
 </html>
