@@ -1,23 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.205edb78.css",
-    "main.js": "/static/js/main.f1dd6204.js",
+    "main.js": "/static/js/main.11629c27.js",
     "static/media/home.png": "/static/media/home.401a4c2b1a01f97deead.png",
-    "static/media/real-time.png": "/static/media/real-time.637b64c3754883ae2e32.png",
     "static/media/calendar.png": "/static/media/calendar.4f51b29e9b6db219edbd.png",
     "static/media/about.png": "/static/media/about.68c89481595ccf06fc12.png",
     "static/media/announcements.png": "/static/media/announcements.531db41fe9f2ddff3bce.png",
-    "static/media/user-interface.png": "/static/media/user-interface.1804ed6ab604cdec00be.png",
-    "static/media/admin-access.png": "/static/media/admin-access.7ad5660a3b632a956888.png",
-    "static/media/security.png": "/static/media/security.e7f5457b0cef7f3177f2.png",
-    "static/media/collaboration.png": "/static/media/collaboration.1a9e9d0e845c77d14d30.png",
+    "static/media/realEstateLogo.png": "/static/media/realEstateLogo.960bb8ee55fddeee9ed5.png",
     "static/media/resources.png": "/static/media/resources.6835f55385d1ce971927.png",
     "index.html": "/index.html",
     "main.205edb78.css.map": "/static/css/main.205edb78.css.map",
-    "main.f1dd6204.js.map": "/static/js/main.f1dd6204.js.map"
+    "main.11629c27.js.map": "/static/js/main.11629c27.js.map"
   },
   "entrypoints": [
     "static/css/main.205edb78.css",
-    "static/js/main.f1dd6204.js"
+    "static/js/main.11629c27.js"
   ]
 }
