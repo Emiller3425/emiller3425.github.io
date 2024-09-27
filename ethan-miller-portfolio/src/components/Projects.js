@@ -11,13 +11,15 @@ function Projects() {
         id="real-estate-club"
         imgSrc={realEstateLogo}
         title="Real Estate Club GVSU Website"
+        className="mt-4" // Add this line
         description="The Real Estate Club GVSU Website is a comprehensive platform designed to streamline the management and dissemination of information for the Real Estate Club at Grand Valley State University."
       />
       <ProjectItem
         id="pygame-platformer"
         imgSrc={ninjaPlatformer}
-        title="Pygame Platformer"
-        description="Description of project 2. What it does, technologies used, and your role."
+        title="Ninja Platformer"
+        className="mt-4" // Add this line
+        description="This Ninja Platformer was programmed in python using the Pygame library, all assets and animations were created by me in Aseprite, all sound effects we're created by me and music was open source on Upbeat. The project is deployed to the web using Pygbag."
       />
     </section>
   );
