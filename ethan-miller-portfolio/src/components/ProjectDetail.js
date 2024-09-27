@@ -27,13 +27,13 @@ const projectData = {
 
 The frontend is built using React, offering a dynamic and responsive user interface. The backend leverages Node.js and Firestore for robust data handling and user authentication.
 
-**Features include:**
+Features include:
 
-- **Admin Access**: Secured through a specific password, allowing only authorized members to update site content.
-- **User-Friendly Interface**: Developed with React for an intuitive experience.
-- **Real-Time Updates**: Firestore integration ensures instant reflection of changes.
-- **Security**: Secure handling of user data and authentication with Node.js backend.
-- **Collaboration**: Up-to-date information on events and meetings for better communication among members.`,
+- Admin Access: Secured through a specific password, allowing only authorized members to update site content.
+- User-Friendly Interface: Developed with React for an intuitive experience.
+- Real-Time Updates: Firestore integration ensures instant reflection of changes.
+- Security: Secure handling of user data and authentication with Node.js backend.
+- Collaboration: Up-to-date information on events and meetings for better communication among members.`,
     link: 'https://gvsurealestateclub.com',
     technologies: [reactImg, nodejsImg, firestoreImg, tailwindcssImg],
     screens: [
@@ -49,13 +49,13 @@ The frontend is built using React, offering a dynamic and responsive user interf
     title: 'Ninja Platformer',
     overview: `The Ninja Platformer is a side-scrolling game built using Python and Pygame. This project allowed me to experiment with animations, particles, cameras, projectiles, sound effects, and more. The game features multiple levels with increasing difficulty, various obstacles, and enemies to challenge the player.
 
-**Key Features:**
+Key Features:
 
-- **Object-Oriented Programming**: Developed using OOP principles and inheritance for scalable code.
-- **Multiple Levels**: Progressively challenging levels with a variety of obstacles and enemies.
-- **Custom Assets**: All visual assets and animations were created in Aseprite.
-- **Sound Design**: Sound effects were self-recorded; background music is open source.
-- **Web Deployment**: Deployed using Pygbag for browser playability, making the game easily accessible without downloads.`,
+- Object-Oriented Programming: Developed using OOP principles and inheritance for scalable code.
+- Multiple Levels: Progressively challenging levels with a variety of obstacles and enemies.
+- Custom Assets: All visual assets and animations were created in Aseprite.
+- Sound Design: Sound effects were self-recorded; background music is open source.
+- Web Deployment: Deployed using Pygbag for browser playability, making the game easily accessible without downloads.`,
     iframeSrc: 'https://emiller3425.github.io/ninja_platformer/',
     technologies: [pygameLogo, aesprite],
     controls: {
@@ -83,8 +83,13 @@ function ProjectDetail() {
     <div className="project-detail py-12 bg-gray-900 text-gray-200 min-h-screen">
       <div className="container mx-auto px-4">
         <Link to="/" className="text-red-500 hover:underline mb-4 inline-block">← Back to Home</Link>
-        <h2 className="text-3xl font-bold mb-6">{project.title}</h2>
-        <div className="mb-6 leading-loose" dangerouslySetInnerHTML={{ __html: project.overview.replace(/\n/g, '<br />') }} />
+        <h2 className="text-3xl font-bold mb-6 text-bone">{project.title}</h2>
+        <div
+          className="mb-6 leading-loose"
+          dangerouslySetInnerHTML={{
+            __html: project.overview.replace(/\n/g, '<br />'),
+          }}
+        />
 
         {project.link && (
           <p className="mb-6">
@@ -101,7 +106,7 @@ function ProjectDetail() {
 
         {project.technologies && (
           <>
-            <h3 className="text-2xl mt-8 mb-4">Technologies Used</h3>
+            <h3 className="text-2xl mt-8 mb-4 text-bone">Technologies Used</h3>
             <div className="tech-used flex flex-wrap">
               {project.technologies.map((tech, index) => (
                 <img
@@ -115,9 +120,10 @@ function ProjectDetail() {
           </>
         )}
 
-        {project.iframeSrc && (
+        {/* Pygame Platformer Section */}
+        {id === 'pygame-platformer' && project.iframeSrc && (
           <div className="mt-8">
-            <div className="iframe-container relative">
+            <div className="iframe-container relative flex justify-center">
               {isLoading && (
                 <div className="loading-screen absolute inset-0 flex items-center justify-center bg-gray-800 rounded-lg">
                   <span className="text-lg text-gray-200">Loading...</span>
@@ -125,7 +131,7 @@ function ProjectDetail() {
               )}
               <iframe
                 src={project.iframeSrc}
-                width="100%"
+                width="50%"
                 height="550px"
                 title={project.title}
                 allow="autoplay; fullscreen *; geolocation; microphone; camera; midi; monetization; xr-spatial-tracking; gamepad; gyroscope; accelerometer; xr; cross-origin-isolated"
@@ -134,21 +140,50 @@ function ProjectDetail() {
                 onLoad={() => setIsLoading(false)}
               ></iframe>
             </div>
-            {/* [Controls section remains the same, adjust colors if necessary] */}
+            {/* Controls Section */}
+            <div className="controls mt-8 flex flex-wrap justify-around text-center">
+              <div className="control-item flex flex-col items-center m-4">
+                <span className="text-xl mb-2">Movement</span>
+                <div className="flex flex-col items-center">
+                  <div className="flex justify-center items-center mb-2">
+                    <img src={project.controls.arrowKeys[0]} alt="Up Key" className="w-10 h-10" />
+                  </div>
+                  <div className="flex justify-center items-center space-x-1">
+                    <img src={project.controls.arrowKeys[2]} alt="Left Key" className="w-10 h-10" />
+                    <img src={project.controls.arrowKeys[1]} alt="Down Key" className="w-10 h-10" />
+                    <img src={project.controls.arrowKeys[3]} alt="Right Key" className="w-10 h-10" />
+                  </div>
+                </div>
+              </div>
+              <div className="control-item flex flex-col items-center m-4">
+                <span className="text-xl mb-2">Attack</span>
+                <img src={project.controls.spaceBar} alt="Space Bar" className="w-32 h-16 mt-2" />
+              </div>
+              <div className="control-item flex flex-col items-center m-4">
+                <span className="text-xl mb-2">Pause</span>
+                <img src={project.controls.escKey} alt="Escape" className="w-20 h-16 mt-2" />
+              </div>
+            </div>
           </div>
         )}
 
         {project.screens && (
           <>
-            <h3 className="text-2xl mt-12 mb-6">Screenshots</h3>
+            <h3 className="text-2xl mt-12 mb-6 text-bone">Screenshots</h3>
             {project.screens.map((screen, index) => (
               <div
                 key={index}
-                className={`image-text-container flex flex-col md:flex-row items-center mt-8 ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''}`}
+                className={`image-text-container flex flex-col md:flex-row items-center mt-8 ${
+                  index % 2 !== 0 ? 'md:flex-row-reverse' : ''
+                }`}
               >
-                <img src={screen.imgSrc} alt={screen.title} className="w-full md:w-1/2 rounded-lg border-4 border-gray-700" />
+                <img
+                  src={screen.imgSrc}
+                  alt={screen.title}
+                  className="w-full md:w-1/2 rounded-lg border-4 border-gray-700 "
+                />
                 <div className="md:w-1/2 md:ml-8 md:mr-8 mt-4 md:mt-0">
-                  <h4 className="text-xl font-bold mb-2">{screen.title}</h4>
+                  <h4 className="text-xl font-bold mb-2 text-bone">{screen.title}</h4>
                   <p>{screen.description}</p>
                 </div>
               </div>

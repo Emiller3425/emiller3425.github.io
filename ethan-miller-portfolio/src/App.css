@@ -184,3 +184,7 @@ a:hover {
     flex-direction: row;
   }
 }
+
+.text-bone {
+  color: #E3DAC9; /* Bone color */
+}

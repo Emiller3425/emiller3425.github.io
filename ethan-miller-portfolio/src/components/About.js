@@ -3,10 +3,10 @@ import Projects from './Projects';
 
 function About() {
   return (
-    <div className="bg-gray-900 text-gray-200">
+    <div className="bg-gray-900">
       <section className="about py-12">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold border-b-4 border-red-500 inline-block pb-2 mb-6">
+          <h2 className="text-4xl font-bold border-b-4 border-red-500 inline-block pb-2 mb-6 text-bone">
             About Me
           </h2>
           <p className="mt-4 text-lg leading-relaxed">
