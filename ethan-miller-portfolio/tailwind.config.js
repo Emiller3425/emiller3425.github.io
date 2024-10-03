@@ -9,10 +9,13 @@ module.exports = {
         'lavender-light': '#F5F5FD',
         bone: '#E3DAC9',
       },
+      scale: {
+        '102': '1.02', // Custom scale for 102%
+      },
     },
   },
   variants: {
-    extend: {},
+    extend: {scale: ['hover']},
   },
   plugins: [],
 }
