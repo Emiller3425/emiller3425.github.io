@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.99309d2a.css",
-    "main.js": "/static/js/main.8b5243a9.js",
+    "main.js": "/static/js/main.e4f9e9b2.js",
     "static/media/home.png": "/static/media/home.401a4c2b1a01f97deead.png",
     "static/media/product_details_2.png": "/static/media/product_details_2.acc4aa52434c5b565957.png",
     "static/media/become_a_customer_3.png": "/static/media/become_a_customer_3.bdaa31d615e728c8c5c6.png",
@@ -35,11 +35,12 @@
     "static/media/become_a_customer_4.png": "/static/media/become_a_customer_4.5c90e2f27f9a19388b04.png",
     "static/media/expo_welcome_intent.png": "/static/media/expo_welcome_intent.5f8ecee92f548fded3b7.png",
     "static/media/realEstateLogo.png": "/static/media/realEstateLogo.960bb8ee55fddeee9ed5.png",
+    "static/media/chai_customer_eta.png": "/static/media/chai_customer_eta.61d81b7178c586fb3ad5.png",
     "static/media/tess_welcome.png": "/static/media/tess_welcome.fd41d2b0009462330c6b.png",
     "static/media/sage_welcome.png": "/static/media/sage_welcome.282d433c117cf89023b6.png",
     "static/media/region_specific.png": "/static/media/region_specific.f42cc2890d069fc51c2d.png",
     "static/media/resources.png": "/static/media/resources.6835f55385d1ce971927.png",
-    "static/media/chai_vb.png": "/static/media/chai_vb.1bef293cbcd33c08993a.png",
+    "static/media/chai_vb.png": "/static/media/chai_vb.080098f1fad41484f2c1.png",
     "static/media/chai_dt.png": "/static/media/chai_dt.4ac9c82acfc46f1d52f7.png",
     "static/media/chai_welcome.png": "/static/media/chai_welcome.0153acb78fe6ab2b762a.png",
     "static/media/chai_forms.png": "/static/media/chai_forms.527125c7ddbc99f6d83e.png",
@@ -49,10 +50,10 @@
     "static/media/dialogflow.svg": "/static/media/dialogflow.dba6676e1a4eb0bfa897d6b2c3eae829.svg",
     "index.html": "/index.html",
     "main.99309d2a.css.map": "/static/css/main.99309d2a.css.map",
-    "main.8b5243a9.js.map": "/static/js/main.8b5243a9.js.map"
+    "main.e4f9e9b2.js.map": "/static/js/main.e4f9e9b2.js.map"
   },
   "entrypoints": [
     "static/css/main.99309d2a.css",
-    "static/js/main.8b5243a9.js"
+    "static/js/main.e4f9e9b2.js"
   ]
 }
