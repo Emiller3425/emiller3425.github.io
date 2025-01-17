@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.99309d2a.css",
-    "main.js": "/static/js/main.3ab7e0dc.js",
+    "main.js": "/static/js/main.3c86874e.js",
     "static/media/home.png": "/static/media/home.401a4c2b1a01f97deead.png",
     "static/media/product_details_2.png": "/static/media/product_details_2.acc4aa52434c5b565957.png",
     "static/media/become_a_customer_3.png": "/static/media/become_a_customer_3.bdaa31d615e728c8c5c6.png",
@@ -39,20 +39,20 @@
     "static/media/sage_welcome.png": "/static/media/sage_welcome.282d433c117cf89023b6.png",
     "static/media/region_specific.png": "/static/media/region_specific.f42cc2890d069fc51c2d.png",
     "static/media/resources.png": "/static/media/resources.6835f55385d1ce971927.png",
-    "static/media/draconicIsles.png": "/static/media/draconicIsles.ac8a7671b706eb080d2c.png",
     "static/media/chai_vb.png": "/static/media/chai_vb.1bef293cbcd33c08993a.png",
     "static/media/chai_dt.png": "/static/media/chai_dt.4ac9c82acfc46f1d52f7.png",
     "static/media/chai_welcome.png": "/static/media/chai_welcome.0153acb78fe6ab2b762a.png",
     "static/media/chai_forms.png": "/static/media/chai_forms.527125c7ddbc99f6d83e.png",
     "static/media/chai_wtc.png": "/static/media/chai_wtc.968fac8db3a044562661.png",
+    "static/media/draconicIsles.png": "/static/media/draconicIsles.d1fb5266194591e0e8c6.png",
     "static/media/ninjaPlatformer.png": "/static/media/ninjaPlatformer.ace13e5cd6076eb864b0.png",
     "static/media/dialogflow.svg": "/static/media/dialogflow.dba6676e1a4eb0bfa897d6b2c3eae829.svg",
     "index.html": "/index.html",
     "main.99309d2a.css.map": "/static/css/main.99309d2a.css.map",
-    "main.3ab7e0dc.js.map": "/static/js/main.3ab7e0dc.js.map"
+    "main.3c86874e.js.map": "/static/js/main.3c86874e.js.map"
   },
   "entrypoints": [
     "static/css/main.99309d2a.css",
-    "static/js/main.3ab7e0dc.js"
+    "static/js/main.3c86874e.js"
   ]
 }
