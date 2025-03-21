@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7ffe05d1.css",
-    "main.js": "/static/js/main.41ba8670.js",
+    "main.css": "/static/css/main.341de6a0.css",
+    "main.js": "/static/js/main.ae6e7d86.js",
     "static/media/home.png": "/static/media/home.401a4c2b1a01f97deead.png",
     "static/media/product_details_2.png": "/static/media/product_details_2.acc4aa52434c5b565957.png",
     "static/media/become_a_customer_3.png": "/static/media/become_a_customer_3.bdaa31d615e728c8c5c6.png",
@@ -55,11 +55,11 @@
     "static/media/ninjaPlatformer.png": "/static/media/ninjaPlatformer.ace13e5cd6076eb864b0.png",
     "static/media/dialogflow.svg": "/static/media/dialogflow.dba6676e1a4eb0bfa897d6b2c3eae829.svg",
     "index.html": "/index.html",
-    "main.7ffe05d1.css.map": "/static/css/main.7ffe05d1.css.map",
-    "main.41ba8670.js.map": "/static/js/main.41ba8670.js.map"
+    "main.341de6a0.css.map": "/static/css/main.341de6a0.css.map",
+    "main.ae6e7d86.js.map": "/static/js/main.ae6e7d86.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ffe05d1.css",
-    "static/js/main.41ba8670.js"
+    "static/css/main.341de6a0.css",
+    "static/js/main.ae6e7d86.js"
   ]
 }
