@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8df2cf5a.css",
-    "main.js": "/static/js/main.b91c5f79.js",
+    "main.css": "/static/css/main.7ffe05d1.css",
+    "main.js": "/static/js/main.9e1e1dcc.js",
     "static/media/home.png": "/static/media/home.401a4c2b1a01f97deead.png",
     "static/media/product_details_2.png": "/static/media/product_details_2.acc4aa52434c5b565957.png",
     "static/media/become_a_customer_3.png": "/static/media/become_a_customer_3.bdaa31d615e728c8c5c6.png",
@@ -49,16 +49,17 @@
     "static/media/chai_welcome.png": "/static/media/chai_welcome.0153acb78fe6ab2b762a.png",
     "static/media/chai_forms.png": "/static/media/chai_forms.527125c7ddbc99f6d83e.png",
     "static/media/chai_wtc.png": "/static/media/chai_wtc.968fac8db3a044562661.png",
+    "static/media/linkedIn.png": "/static/media/linkedIn.293c7eb38b91a5fffe41.png",
     "static/media/draconicisles.png": "/static/media/draconicisles.d1fb5266194591e0e8c6.png",
     "static/media/planetGenerator.png": "/static/media/planetGenerator.d9d7e1060c9fd64c0a1e.png",
     "static/media/ninjaPlatformer.png": "/static/media/ninjaPlatformer.ace13e5cd6076eb864b0.png",
     "static/media/dialogflow.svg": "/static/media/dialogflow.dba6676e1a4eb0bfa897d6b2c3eae829.svg",
     "index.html": "/index.html",
-    "main.8df2cf5a.css.map": "/static/css/main.8df2cf5a.css.map",
-    "main.b91c5f79.js.map": "/static/js/main.b91c5f79.js.map"
+    "main.7ffe05d1.css.map": "/static/css/main.7ffe05d1.css.map",
+    "main.9e1e1dcc.js.map": "/static/js/main.9e1e1dcc.js.map"
   },
   "entrypoints": [
-    "static/css/main.8df2cf5a.css",
-    "static/js/main.b91c5f79.js"
+    "static/css/main.7ffe05d1.css",
+    "static/js/main.9e1e1dcc.js"
   ]
 }
