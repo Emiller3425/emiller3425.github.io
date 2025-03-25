@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c5f255c1.css",
-    "main.js": "/static/js/main.dca7d72d.js",
+    "main.js": "/static/js/main.5b251c29.js",
     "static/media/home.png": "/static/media/home.401a4c2b1a01f97deead.png",
     "static/media/product_details_2.png": "/static/media/product_details_2.acc4aa52434c5b565957.png",
     "static/media/become_a_customer_3.png": "/static/media/become_a_customer_3.bdaa31d615e728c8c5c6.png",
@@ -34,18 +34,18 @@
     "static/media/become_a_customer_5.png": "/static/media/become_a_customer_5.50dc1d4d6403783fb176.png",
     "static/media/become_a_customer_4.png": "/static/media/become_a_customer_4.5c90e2f27f9a19388b04.png",
     "static/media/expo_welcome_intent.png": "/static/media/expo_welcome_intent.5f8ecee92f548fded3b7.png",
+    "static/media/chai_customer_prospects_2.png": "/static/media/chai_customer_prospects_2.9c2cc9f5c0ef7ffab327.png",
     "static/media/realEstateLogo.png": "/static/media/realEstateLogo.960bb8ee55fddeee9ed5.png",
     "static/media/chai_customer_eta.png": "/static/media/chai_customer_eta.61d81b7178c586fb3ad5.png",
+    "static/media/chai_sales_kpis.png": "/static/media/chai_sales_kpis.65d7aa8643829a76da36.png",
     "static/media/tess_welcome.png": "/static/media/tess_welcome.fd41d2b0009462330c6b.png",
     "static/media/sage_welcome.png": "/static/media/sage_welcome.282d433c117cf89023b6.png",
-    "static/media/chai_customer_prospects_2.png": "/static/media/chai_customer_prospects_2.1546a86db491ce9af755.png",
     "static/media/region_specific.png": "/static/media/region_specific.f42cc2890d069fc51c2d.png",
-    "static/media/chai_sales_kpis.png": "/static/media/chai_sales_kpis.9a9aff2e4e32e5c8b161.png",
+    "static/media/chai_customer_prospects.png": "/static/media/chai_customer_prospects.c7aa9eee1923e3e4d66e.png",
     "static/media/resources.png": "/static/media/resources.6835f55385d1ce971927.png",
-    "static/media/chai_customer_prospects.png": "/static/media/chai_customer_prospects.ad63b953f1d0f952b44b.png",
     "static/media/chai_vb.png": "/static/media/chai_vb.080098f1fad41484f2c1.png",
+    "static/media/chai_customer_prospects_3.png": "/static/media/chai_customer_prospects_3.e15140925b801a3241ff.png",
     "static/media/chai_dt.png": "/static/media/chai_dt.4ac9c82acfc46f1d52f7.png",
-    "static/media/chai_customer_prospects_3.png": "/static/media/chai_customer_prospects_3.d38f6ec17df02aeed2ce.png",
     "static/media/chai_welcome.png": "/static/media/chai_welcome.0153acb78fe6ab2b762a.png",
     "static/media/chai_forms.png": "/static/media/chai_forms.527125c7ddbc99f6d83e.png",
     "static/media/chai_wtc.png": "/static/media/chai_wtc.968fac8db3a044562661.png",
@@ -56,10 +56,10 @@
     "static/media/dialogflow.svg": "/static/media/dialogflow.dba6676e1a4eb0bfa897d6b2c3eae829.svg",
     "index.html": "/index.html",
     "main.c5f255c1.css.map": "/static/css/main.c5f255c1.css.map",
-    "main.dca7d72d.js.map": "/static/js/main.dca7d72d.js.map"
+    "main.5b251c29.js.map": "/static/js/main.5b251c29.js.map"
   },
   "entrypoints": [
     "static/css/main.c5f255c1.css",
-    "static/js/main.dca7d72d.js"
+    "static/js/main.5b251c29.js"
   ]
 }
