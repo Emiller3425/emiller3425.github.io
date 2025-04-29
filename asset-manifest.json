@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.a388a229.css",
-    "main.js": "/static/js/main.74a76d1e.js",
+    "main.js": "/static/js/main.894be969.js",
     "static/media/home.png": "/static/media/home.401a4c2b1a01f97deead.png",
     "static/media/voxel_terrain.png": "/static/media/voxel_terrain.f145e513ad2362bfddbb.png",
     "static/media/voxel_terrain_inside.png": "/static/media/voxel_terrain_inside.0f2d4b46fc7085666de6.png",
-    "static/media/voxel.png": "/static/media/voxel.7fc6ae574f6e86965f5d.png",
+    "static/media/voxel.png": "/static/media/voxel.997c22b9771f8cd8aad5.png",
     "static/media/product_details_2.png": "/static/media/product_details_2.acc4aa52434c5b565957.png",
     "static/media/frustrum_culling.png": "/static/media/frustrum_culling.170bc13c135939041366.png",
     "static/media/become_a_customer_3.png": "/static/media/become_a_customer_3.bdaa31d615e728c8c5c6.png",
@@ -62,10 +62,10 @@
     "static/media/dialogflow.svg": "/static/media/dialogflow.dba6676e1a4eb0bfa897d6b2c3eae829.svg",
     "index.html": "/index.html",
     "main.a388a229.css.map": "/static/css/main.a388a229.css.map",
-    "main.74a76d1e.js.map": "/static/js/main.74a76d1e.js.map"
+    "main.894be969.js.map": "/static/js/main.894be969.js.map"
   },
   "entrypoints": [
     "static/css/main.a388a229.css",
-    "static/js/main.74a76d1e.js"
+    "static/js/main.894be969.js"
   ]
 }
