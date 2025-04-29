@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.a388a229.css",
-    "main.js": "/static/js/main.3ddf9002.js",
-    "static/media/home.png": "/static/media/home.401a4c2b1a01f97deead.png",
+    "main.js": "/static/js/main.a019870e.js",
+    "static/media/home.png": "/static/media/home.f6cc7f55cc75a24bd8d7.png",
     "static/media/voxel_terrain.png": "/static/media/voxel_terrain.f145e513ad2362bfddbb.png",
     "static/media/voxel_terrain_inside.png": "/static/media/voxel_terrain_inside.0f2d4b46fc7085666de6.png",
     "static/media/voxel.png": "/static/media/voxel.997c22b9771f8cd8aad5.png",
     "static/media/product_details_2.png": "/static/media/product_details_2.acc4aa52434c5b565957.png",
+    "static/media/about.png": "/static/media/about.7ef0ae4b54c1f357ba95.png",
     "static/media/frustrum_culling.png": "/static/media/frustrum_culling.170bc13c135939041366.png",
     "static/media/become_a_customer_3.png": "/static/media/become_a_customer_3.bdaa31d615e728c8c5c6.png",
     "static/media/recipe_search.png": "/static/media/recipe_search.3b0d83fa7d7e51f2e831.png",
@@ -14,14 +15,12 @@
     "static/media/recipe_builder.png": "/static/media/recipe_builder.4d29040b9d51f5637a6c.png",
     "static/media/recipe_builder_2.png": "/static/media/recipe_builder_2.a06d979b66eefdf8959a.png",
     "static/media/product_search_2.png": "/static/media/product_search_2.0dab411849a313c0f506.png",
-    "static/media/syndication.png": "/static/media/syndication.971c259364f1b72a40a5.png",
     "static/media/add_to_cart.png": "/static/media/add_to_cart.892c429338abb2aa8995.png",
     "static/media/food_cost_tools.png": "/static/media/food_cost_tools.2ee44a5425dd84ff12fd.png",
+    "static/media/syndication.png": "/static/media/syndication.ae7041521d54d575d045.png",
     "static/media/view_full_recipe.png": "/static/media/view_full_recipe.93aacfabe37f0f16ce35.png",
-    "static/media/calendar.png": "/static/media/calendar.4f51b29e9b6db219edbd.png",
-    "static/media/about.png": "/static/media/about.68c89481595ccf06fc12.png",
-    "static/media/announcements.png": "/static/media/announcements.531db41fe9f2ddff3bce.png",
     "static/media/product_details.png": "/static/media/product_details.f0e316daab5ab85ba553.png",
+    "static/media/calendar.png": "/static/media/calendar.5e478581668b523a345c.png",
     "static/media/track_truck.png": "/static/media/track_truck.7b6b6a9123d9e6483fdf.png",
     "static/media/live_agent_sa.png": "/static/media/live_agent_sa.948da3d9c8b5538f28cd.png",
     "static/media/become_a_customer.png": "/static/media/become_a_customer.f682ae2d6fd0de0db5da.png",
@@ -37,6 +36,8 @@
     "static/media/live_agent.png": "/static/media/live_agent.ff42f9c0f8d4903f7f86.png",
     "static/media/measurement_conversions.png": "/static/media/measurement_conversions.a2da7c7864927810a21c.png",
     "static/media/become_a_customer_5.png": "/static/media/become_a_customer_5.50dc1d4d6403783fb176.png",
+    "static/media/resources.png": "/static/media/resources.105a63303d9936457c66.png",
+    "static/media/announcements.png": "/static/media/announcements.f3084d71fcc278960bb2.png",
     "static/media/become_a_customer_4.png": "/static/media/become_a_customer_4.5c90e2f27f9a19388b04.png",
     "static/media/expo_welcome_intent.png": "/static/media/expo_welcome_intent.5f8ecee92f548fded3b7.png",
     "static/media/chai_customer_prospects_2.png": "/static/media/chai_customer_prospects_2.9c2cc9f5c0ef7ffab327.png",
@@ -48,7 +49,6 @@
     "static/media/region_specific.png": "/static/media/region_specific.f42cc2890d069fc51c2d.png",
     "static/media/chai_customer_prospects.png": "/static/media/chai_customer_prospects.c7aa9eee1923e3e4d66e.png",
     "static/media/cpp.png": "/static/media/cpp.c37344b3f54290980c0c.png",
-    "static/media/resources.png": "/static/media/resources.6835f55385d1ce971927.png",
     "static/media/chai_vb.png": "/static/media/chai_vb.080098f1fad41484f2c1.png",
     "static/media/chai_customer_prospects_3.png": "/static/media/chai_customer_prospects_3.e15140925b801a3241ff.png",
     "static/media/chai_dt.png": "/static/media/chai_dt.4ac9c82acfc46f1d52f7.png",
@@ -62,10 +62,10 @@
     "static/media/dialogflow.svg": "/static/media/dialogflow.dba6676e1a4eb0bfa897d6b2c3eae829.svg",
     "index.html": "/index.html",
     "main.a388a229.css.map": "/static/css/main.a388a229.css.map",
-    "main.3ddf9002.js.map": "/static/js/main.3ddf9002.js.map"
+    "main.a019870e.js.map": "/static/js/main.a019870e.js.map"
   },
   "entrypoints": [
     "static/css/main.a388a229.css",
-    "static/js/main.3ddf9002.js"
+    "static/js/main.a019870e.js"
   ]
 }
