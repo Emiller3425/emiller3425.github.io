@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a388a229.css",
-    "main.js": "/static/js/main.a019870e.js",
+    "main.js": "/static/js/main.3724d487.js",
     "static/media/home.png": "/static/media/home.f6cc7f55cc75a24bd8d7.png",
     "static/media/voxel_terrain.png": "/static/media/voxel_terrain.f145e513ad2362bfddbb.png",
     "static/media/voxel_terrain_inside.png": "/static/media/voxel_terrain_inside.0f2d4b46fc7085666de6.png",
@@ -23,6 +23,7 @@
     "static/media/calendar.png": "/static/media/calendar.5e478581668b523a345c.png",
     "static/media/track_truck.png": "/static/media/track_truck.7b6b6a9123d9e6483fdf.png",
     "static/media/live_agent_sa.png": "/static/media/live_agent_sa.948da3d9c8b5538f28cd.png",
+    "static/media/skybox.png": "/static/media/skybox.c6baddfc4a5003d5e79f.png",
     "static/media/become_a_customer.png": "/static/media/become_a_customer.f682ae2d6fd0de0db5da.png",
     "static/media/innoserv_request_3.png": "/static/media/innoserv_request_3.fe5bc556a28d611ffea0.png",
     "static/media/inside_sales_rep.png": "/static/media/inside_sales_rep.395b06411679813658cd.png",
@@ -62,10 +63,10 @@
     "static/media/dialogflow.svg": "/static/media/dialogflow.dba6676e1a4eb0bfa897d6b2c3eae829.svg",
     "index.html": "/index.html",
     "main.a388a229.css.map": "/static/css/main.a388a229.css.map",
-    "main.a019870e.js.map": "/static/js/main.a019870e.js.map"
+    "main.3724d487.js.map": "/static/js/main.3724d487.js.map"
   },
   "entrypoints": [
     "static/css/main.a388a229.css",
-    "static/js/main.a019870e.js"
+    "static/js/main.3724d487.js"
   ]
 }
