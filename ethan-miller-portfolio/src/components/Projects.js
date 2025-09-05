@@ -4,6 +4,7 @@ import realEstateLogo from '../images/realEstateLogo.png';
 import ninjaPlatformer from '../images/ninjaPlatformer.png';
 import draconicIsles from '../images/draconicisles.png'
 import expo from '../images/expo.png'
+import expo_voice from "../images/expo_voice.png"
 import tess from '../images/tess.png'
 import chai from '../images/chai.png'
 import sage from '../images/sage.png'
@@ -25,6 +26,12 @@ function Projects() {
             imgSrc={expo}
             title="Expo"
             description="Expo is GFS's ordering platform assistant, specializing in providing product, invoice, and sales rep information. Leveraging both GenAI and traditional conversation design using NLU and conditionals."
+          />
+          <ProjectItem
+            id="expoVoice"
+            imgSrc={expo_voice}
+            title="Expo Voice"
+            description="Expo Voice is an assiatant in front of customer service and tech support that handles customer ETA inquiries."
           />
           <ProjectItem
             id="chai"

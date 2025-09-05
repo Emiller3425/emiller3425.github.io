@@ -202,6 +202,21 @@ Features include:
     features: [{ imgSrc: homeImg, title: 'Home Screen', description: 'The welcoming interface with navigation options.' }],
     welcome_image: expo_welcome,
   },
+    'expoVoice': {
+    title: 'Expo Voice',
+    overview: `Expo Voice is an assiatant in front of customer service and tech support that handles customer ETA inquiries.
+    
+   <b>Key Features:</b>
+
+    - Truck ETAs: Will provice a customer calling in their truck ETA using an anonymous authentication system that allows them to type in their customerNumber using DTMF.
+    - Gen AI: Uses generative AI when a no match event is triggered, giving specialized esclalation messages for each session before handing them off to a human.
+
+    Expo Voice is currently available in front of our US Customer Service and CTS phone lines if the customer number is typed in via DTMF:
+    &emsp;Customer Service: <u><a href="tel:1-800-968-4164">1 (800) 968-4164</a></u>
+    &emsp;CTS: <u><a href="tel:1-800-968-6437">1 (800) 968-6437</a></u>
+    `,
+    technologies: [dialogflowCXLogo, gemini],
+  },
   'tess': {
     title: 'Tess',
     overview: `<p>Tess is a public facing agent that focuses on the customer sign-up process and product discovery. You can use Tess on <a href="https://gfs.com/en-us/" target="_blank"><font color=f56565><u>gfs.com</u></font></a>, <a href="https://gfs.ca/en-ca/" target="_blank"><font color=f56565><u>gfs.ca</u></font></a> and <a href="https://gfsstore.com" target="_blank"><font color=f56565><u>gfsstore.com</u></font></a>.</p>
@@ -477,6 +492,10 @@ function ProjectDetail() {
                 className="w-60 h-100 m-2 border-2 border-gray-700 rounded"
               />
             </div>
+          </>
+        )}
+        {id === 'expoVoice' && (
+          <>
           </>
         )}
         {id === 'tess' && (
